@@ -1,0 +1,60 @@
+CROP CULTIVATION GUIDE – RICE / PADDY (Oryza sativa)
+======================================================
+
+OVERVIEW
+--------
+Rice is India's principal Kharif crop and staple food. Major growing states: West Bengal, Uttar Pradesh, Andhra Pradesh, Punjab, Odisha, Tamil Nadu.
+
+SUITABLE CONDITIONS
+-------------------
+- Season       : Kharif (June – November); also Rabi in South India
+- Temperature  : 20–35 °C; sensitive to cold below 15 °C
+- Rainfall     : 1,000–2,000 mm; or irrigated
+- Soil         : Heavy clay or clay-loam with poor drainage; pH 5.0–7.0
+- Water        : 4–6 cm standing water during vegetative stage
+
+POPULAR VARIETIES
+-----------------
+1. Swarna (MTU-7029)     – High yielding; WB, Odisha, UP
+2. IR-64                 – Medium duration; Andhra, TN, Karnataka
+3. Pusa Basmati-1121     – Long grain aromatic; Punjab, Haryana
+4. BPT-5204 (Samba Masuri) – AP, Telangana; export quality
+5. Lalat                 – Odisha; flood tolerant
+
+NURSERY & TRANSPLANTING
+-----------------------
+- Seed rate for nursery : 25–30 kg/ha
+- Nursery period        : 25–30 days (short-duration), 30–35 days (long-duration)
+- Transplanting spacing : 20 cm × 15 cm (2–3 seedlings per hill)
+
+NUTRIENT MANAGEMENT (per hectare)
+----------------------------------
+- N: 120 kg (split in 3: basal, tillering, PI stage)
+- P₂O₅: 60 kg (full basal)
+- K₂O: 60 kg (full basal)
+- Zinc sulphate: 25 kg/ha for zinc-deficient soils (common in Punjab, Haryana)
+
+PEST & DISEASE MANAGEMENT
+--------------------------
+Diseases:
+1. Blast (Pyricularia oryzae)      – spray Tricyclazole 75 WP @ 0.6 g/l at boot-leaf stage.
+2. Bacterial Leaf Blight (BLB)     – Copper oxychloride 0.25%; use resistant varieties.
+3. Sheath Blight (Rhizoctonia)     – Validamycin 3 L @ 2 ml/l at tillering.
+4. Brown Plant Hopper (BPH)        – Imidacloprid 200 SL @ 0.25 ml/l.
+
+Insects:
+1. Stem Borer  – Cartap Hydrochloride 4G @ 18 kg/ha or light traps.
+2. Leaf Folder – Chlorpyrifos 2.5% DP @ 25 kg/ha dusting.
+3. Gall Midge  – Carbofuran 3G @ 33 kg/ha at planting.
+
+HARVEST
+-------
+Harvest at 80% grain maturity (straw turning golden). Moisture: 20–22%. Dry to 14% for storage.
+Average yield: 4–7 tonnes/ha (HYV irrigated).
+
+GOVERNMENT SCHEMES
+------------------
+- MSP Kharif 2023-24: ₹2,183/quintal (common grade)
+- PMFBY insurance premium for Kharif rice: 2% of sum insured
+- Pradhan Mantri Krishi Sinchayee Yojana (PMKSY): subsidy on micro-irrigation
+- Rashtriya Krishi Vikas Yojana (RKVY): state-level capital investment

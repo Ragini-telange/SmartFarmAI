@@ -1,0 +1,60 @@
+CROP CULTIVATION GUIDE – COTTON (Gossypium hirsutum / G. arboreum)
+===================================================================
+
+OVERVIEW
+--------
+Cotton is India's main commercial (cash) crop — "White Gold". Major states: Gujarat, Maharashtra (Vidarbha), Telangana, AP, Rajasthan, MP, Punjab.
+
+SUITABLE CONDITIONS
+-------------------
+- Season       : Kharif (May–June sowing; harvest Nov–Feb)
+- Temperature  : 21–30 °C; frost-free 180-day season required
+- Rainfall     : 500–1,500 mm; dry weather needed at boll maturity
+- Soil         : Deep black cotton soil (Regur) preferred; also red loam; pH 6.0–8.0
+- Altitude     : Up to 600 m
+
+POPULAR VARIETIES
+-----------------
+1. NHH-44 (Bt hybrid)    – Gujarat; bollworm resistant
+2. RCH-2 Bt              – Maharashtra; high boll weight
+3. MRC-7361 Bt           – Vidarbha; sucking pest tolerant
+4. HD-324                – Non-Bt; Punjab; early maturing
+5. Suraj                 – Desi variety; MP/Rajasthan; rain-fed
+
+BT COTTON NOTE
+--------------
+All commercial hybrids in India are Bt (Bacillus thuringiensis gene for bollworm resistance). Approved Bt events: MON531, MON15985. Do NOT use unapproved HtBt varieties.
+
+NUTRIENT MANAGEMENT (per hectare)
+----------------------------------
+- N: 180 kg (3 splits: basal, 30 DAS, 60 DAS)
+- P₂O₅: 90 kg (basal)
+- K₂O: 60 kg (basal + 60 DAS)
+- Boron foliar: 0.2% boric acid at bud + flowering stage
+
+PEST & DISEASE MANAGEMENT
+--------------------------
+Key Pests:
+1. American Bollworm (H. armigera) – Bt cotton resistant; if outbreak, Emamectin 5 SG @ 0.4 g/l.
+2. Pink Bollworm (P. gossypiella) – pheromone traps; Chlorpyrifos 20 EC @ 2.5 ml/l.
+3. Whitefly (Bemisia tabaci)      – Pyrethrin or Spiromesifen 22.9 SC @ 1 ml/l; vector of CLCuV.
+4. Thrips, Jassids, Aphids        – Imidacloprid 70 WG @ 0.3 g/l seed treatment.
+5. Mealy Bug                      – Profenofos 50 EC @ 2 ml/l; destroy infected plants.
+
+Diseases:
+1. Cotton Leaf Curl Virus (CLCuV)  – No chemical cure; manage whitefly vector; use tolerant varieties.
+2. Fusarium/Verticillium Wilt      – Seed treatment Carbendazim 50 WP 2 g/kg; crop rotation with sorghum/wheat.
+3. Boll Rot (Aspergillus)          – Avoid excess moisture; spray Copper oxychloride at boll opening.
+
+HARVEST
+-------
+Pick bolls in 3–4 pickings at 8-day intervals when 4–5 bolls open per plant.
+Avoid picking in dew/rain (quality degrade). Target moisture <12%.
+Average lint yield: 500–600 kg/ha (Bt hybrid irrigated).
+
+GOVERNMENT SCHEMES
+------------------
+- MSP 2023-24: ₹6,620/quintal (medium staple), ₹7,020 (long staple)
+- PMFBY: 5% premium for Kharif commercial crops
+- Technology Mission on Cotton (TMC): subsidised certified seed
+- Interest subvention scheme: short-term crop loan @ 7% (effective 4% with subvention)

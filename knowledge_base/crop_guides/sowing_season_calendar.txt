@@ -1,0 +1,88 @@
+CROP SOWING SEASON CALENDAR – INDIA
+=====================================
+
+This document provides a comprehensive seasonal crop recommendation guide for Indian farmers based on season, region, and soil type.
+
+=======================================================================
+KHARIF SEASON (Monsoon crops – Sown: June–July; Harvested: Sept–Nov)
+=======================================================================
+
+CROP         | STATES                          | SOIL TYPE              | NOTES
+-------------|----------------------------------|------------------------|----------------------------------
+Rice/Paddy   | All India                        | Clay / Clay-loam       | Needs standing water
+Maize        | Karnataka, MP, Rajasthan, UP     | Sandy loam, red soil   | Can be rainfed
+Sorghum(Jowar)| Maharashtra, Karnataka, AP      | Black cotton, red soil | Drought tolerant
+Pearl Millet | Rajasthan, Gujarat, Haryana      | Sandy soil             | Very drought tolerant
+Groundnut    | Gujarat, AP, Rajasthan, TN       | Sandy loam, red soil   | Needs well-drained soil
+Soybean      | MP, Maharashtra, Rajasthan       | Medium black soil      | N-fixing legume
+Cotton       | Gujarat, Maharashtra, Telangana  | Deep black (regur)     | 180-day season
+Sugarcane    | UP, Maharashtra, TN, Karnataka   | Deep loamy             | Plant Feb–April; ratoon Kharif
+Turmeric     | AP, Odisha, Tamil Nadu, WB       | Loam, well-drained     | 8–9 months duration
+Ginger       | Kerala, Meghalaya, Karnataka     | Loam, forest soil      | Shade tolerant variety available
+Arhar/Tur    | Maharashtra, UP, Karnataka, MP   | Red/black              | Semi-perennial; N-fixer
+Urad/Moong   | AP, Rajasthan, UP, MP            | Sandy loam             | Short-duration 65–75 days
+
+=======================================================================
+RABI SEASON (Winter crops – Sown: Oct–Dec; Harvested: Feb–Apr)
+=======================================================================
+
+CROP         | STATES                          | SOIL TYPE              | NOTES
+-------------|----------------------------------|------------------------|----------------------------------
+Wheat        | Punjab, Haryana, UP, MP, Raj     | Loam, clay-loam        | Irrigated preferred; 6 irrigations
+Barley       | Rajasthan, UP, MP, Bihar         | Sandy loam, saline OK  | Drought tolerant; malt + feed
+Gram/Chickpea| MP, Rajasthan, Maharashtra, AP   | Medium black, loam     | Rainfed possible; N-fixing
+Lentil(Masur)| UP, Bihar, MP                   | Loam                   | 110–120 days
+Mustard      | Rajasthan, UP, Haryana, MP       | Sandy loam             | Oilseed; 90–120 days
+Sunflower    | Karnataka, AP, Maharashtra       | Black/red loam         | Also Kharif and Zaid possible
+Potato       | UP, WB, Punjab, Haryana, Bihar   | Sandy loam, well-drain | 70–100 days; cool weather
+Onion        | Maharashtra, Karnataka, MP, Raj  | Medium loam, well-dr.  | Rabi onion: Oct–Nov sowing
+Coriander    | Rajasthan, MP, Gujarat           | Sandy loam             | 100–120 days
+
+=======================================================================
+ZAID / SUMMER SEASON (Sown: Feb–Mar; Harvested: Apr–June)
+=======================================================================
+
+CROP         | STATES                          | SOIL TYPE              | NOTES
+-------------|----------------------------------|------------------------|----------------------------------
+Moong (Green)| Pan India                        | Sandy loam             | 60–65 days; short season
+Watermelon   | UP, Rajasthan, AP                | Sandy loam             | River-bed cultivation popular
+Muskmelon    | UP, Rajasthan, Punjab            | Sandy                  | 70–80 days
+Cucumber     | All India                        | Sandy loam             | Short season vegetable
+Bitter Gourd | AP, Maharashtra, Kerala          | Loam                   | Trellis needed
+Summer Maize | Punjab, Haryana                  | Sandy loam             | Irrigated, short-season var.
+Sunflower    | Karnataka, AP, TN                | Loam to black          | Drought tolerant
+
+=======================================================================
+SOIL TYPE ↔ RECOMMENDED CROPS QUICK REFERENCE
+=======================================================================
+
+SOIL TYPE         | SUITABLE CROPS
+------------------|--------------------------------------------------------------
+Deep Black (Regur)| Cotton, Sorghum, Wheat, Chickpea, Sunflower, Soybean
+Red Loam          | Groundnut, Maize, Ragi, Cotton, Sunflower
+Sandy Loam        | Pearl Millet, Groundnut, Moong, Sesame, Potato
+Alluvial (IGP)    | Wheat, Rice, Sugarcane, Maize, Vegetable crops
+Laterite          | Cashew, Coconut, Areca, Rubber, Rice (acidic tolerant vars.)
+Saline/Alkali     | Barley, Rice (salt tolerant), Sugarbeet, Dhaincha (green manure)
+Hilly / Forest    | Ginger, Turmeric, Large Cardamom, Tea, Coffee, Colocasia
+
+=======================================================================
+INTERCROPPING SYSTEMS
+=======================================================================
+
+MAIN CROP  | INTERCROP         | BENEFIT
+-----------|-------------------|-----------------------------------------------
+Sugarcane  | Onion / Garlic    | Extra income; early canopy fills gap
+Cotton     | Blackgram/Moong   | Short-duration filler; N-fixation
+Maize      | Cowpea            | Shade tolerant legume; soil health
+Arhar (Tur)| Sorghum           | Wind break; mutual benefit
+Groundnut  | Castor            – Border cropping; pest management (castor as trap crop)
+Wheat      | Mustard           | Not recommended (compete for light)
+
+=======================================================================
+NOTES FOR ADVISORS
+=======================================================================
+- Always confirm local agroclimatic zone before final recommendation.
+- Check for recent pest/disease alerts from State Agriculture Department.
+- Recommend certified seed from government-approved sources.
+- Encourage soil health card recommendations for fertiliser dose.

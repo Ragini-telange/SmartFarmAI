@@ -1,0 +1,62 @@
+CROP CULTIVATION GUIDE – WHEAT (Triticum aestivum)
+====================================================
+
+OVERVIEW
+--------
+Wheat is one of India's most important rabi (winter) crops, cultivated across Punjab, Haryana, Uttar Pradesh, Madhya Pradesh, Rajasthan, and Bihar.
+
+SUITABLE CONDITIONS
+-------------------
+- Season       : Rabi (October – March)
+- Temperature  : 10–25 °C during growing, 25–30 °C during ripening
+- Rainfall     : 250–750 mm annually; irrigated crop preferred
+- Soil         : Well-drained loamy or clay-loam soils, pH 6.0–7.5
+- Altitude     : Up to 3,300 m (for hill wheat)
+
+POPULAR VARIETIES
+-----------------
+1. HD-2967  – High yielding, resistant to yellow rust; suitable for IGP plains
+2. GW-322   – Gujarat & Rajasthan; drought tolerant
+3. K-307    – UP & Bihar; good for late sowing
+4. PBW-343  – Punjab & Haryana; early maturing, rust resistant
+5. NW-1014  – Madhya Pradesh; high protein content
+
+SOWING CALENDAR
+---------------
+- Timely sowing  : 1–25 November (ideal)
+- Late sowing    : 25 November – 25 December (use late-sowing varieties)
+- Seed rate      : 100–125 kg/ha (timely), 125–150 kg/ha (late)
+
+NUTRIENT MANAGEMENT
+-------------------
+Basal dose (per hectare):
+  - Nitrogen (N)  : 120 kg (half basal + half at first irrigation)
+  - Phosphorus    : 60 kg P₂O₅
+  - Potassium     : 40 kg K₂O
+
+IRRIGATION
+----------
+Critical stages: Crown Root Initiation (CRI, 20–25 DAS), Tillering, Jointing, Flowering, Milk stage, Dough stage.
+6 irrigations recommended for good yield under Punjab/Haryana conditions.
+
+PEST & DISEASE MANAGEMENT
+--------------------------
+Common Diseases:
+1. Yellow Rust (Puccinia striiformis) – yellow stripes on leaves; spray Propiconazole 25 EC @ 0.1%.
+2. Brown Rust (P. recondita) – orange pustules; use Mancozeb 75 WP @ 2 g/l.
+3. Loose Smut – black powder in ear; use Carboxin 75 WP seed treatment 2 g/kg.
+
+Common Pests:
+1. Aphids – use Imidacloprid 17.8 SL @ 0.3 ml/l or Dimethoate 30 EC @ 1.5 ml/l.
+2. Termite – pre-sowing Chlorpyrifos 20 EC soil drench 2.5 L/ha.
+
+HARVEST
+-------
+Harvest when grain moisture is 14–16%. Use combine harvester for large fields.
+Average yield: 4–6 tonnes/ha under irrigated conditions.
+
+GOVERNMENT SUPPORT
+------------------
+- MSP 2023-24: ₹2,275 per quintal
+- PM-Kisan Samman Nidhi: ₹6,000/year to eligible farmers
+- Pradhan Mantri Fasal Bima Yojana (PMFBY): crop insurance at 1.5% premium

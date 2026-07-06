@@ -1,0 +1,151 @@
+GOVERNMENT AGRICULTURAL SCHEMES & SUBSIDIES – INDIA 2023-24
+=============================================================
+
+Compiled for SmartFarm AI knowledge base. Last updated: June 2024.
+Source: Ministry of Agriculture & Farmers Welfare (MoAFW), GoI.
+
+═══════════════════════════════════════════════════════════════════════
+1. PM-KISAN SAMMAN NIDHI YOJANA (PM-Kisan)
+═══════════════════════════════════════════════════════════════════════
+Scheme Type   : Direct Benefit Transfer (DBT)
+Benefit       : ₹6,000 per year in 3 equal instalments of ₹2,000
+Eligibility   : All land-holding farmer families (excluding income tax payers, 
+                constitutional post holders, PSU employees, >10,000/month pensioners)
+How to apply  : pmkisan.gov.in  |  CSC centres  |  Agriculture dept. offices
+Documents     : Aadhaar, Bank account, Land records (Khasra/Khatauni)
+Helpline      : 155261 / 011-24300606
+
+═══════════════════════════════════════════════════════════════════════
+2. PRADHAN MANTRI FASAL BIMA YOJANA (PMFBY)
+═══════════════════════════════════════════════════════════════════════
+Scheme Type   : Crop Insurance
+Premium rates :
+  - Kharif crops   : 2% of Sum Insured (SI)
+  - Rabi crops     : 1.5% of SI
+  - Commercial/Hort: 5% of SI
+  - Remaining premium: shared between Central & State Governments
+Coverage      : Pre-sowing to post-harvest losses (natural calamities, pests, diseases)
+How to apply  : Through crop loan at bank; or pmfby.gov.in; or insurance company
+                Deadline: Within 7 days of sowing (for standalone policy)
+Claim process : Intimation within 72 hours of crop loss to insurance company / 
+                Crop Insurance App
+App           : "Fasal Bima" app on Google Play / Apple Store
+Helpline      : 14447
+
+═══════════════════════════════════════════════════════════════════════
+3. MINIMUM SUPPORT PRICE (MSP) – 2023-24
+═══════════════════════════════════════════════════════════════════════
+KHARIF 2023-24 (selected crops):
+  Crop                   | MSP (₹/quintal)
+  -----------------------|----------------
+  Common Paddy           | 2,183
+  A-Grade Paddy          | 2,203
+  Jowar (Hybrid)         | 3,180
+  Bajra                  | 2,500
+  Maize                  | 2,090
+  Tur (Arhar)            | 7,000
+  Moong                  | 8,558
+  Urad                   | 6,950
+  Groundnut (Shell)      | 6,377
+  Sunflower seed         | 6,760
+  Soybean (Yellow)       | 4,600
+  Cotton (Medium Staple) | 6,620
+  Cotton (Long Staple)   | 7,020
+
+RABI 2023-24:
+  Crop                   | MSP (₹/quintal)
+  -----------------------|----------------
+  Wheat                  | 2,275
+  Barley                 | 1,735
+  Gram (Chickpea)        | 5,440
+  Lentil (Masur)         | 6,425
+  Rapeseed/Mustard       | 5,650
+  Safflower              | 5,800
+
+Procurement agencies: FCI, NAFED, CCI, State Procurement Agencies.
+MSP helpline: 1800-270-0224
+
+═══════════════════════════════════════════════════════════════════════
+4. KISAN CREDIT CARD (KCC)
+═══════════════════════════════════════════════════════════════════════
+Purpose       : Short-term crop loans at concessional interest
+Rate          : 7% per annum (effective 4% with interest subvention for timely repayment)
+Limit         : Up to ₹3 lakh short-term; higher for post-harvest/allied activities
+Eligibility   : All farmers; tenant farmers; SHG/JLG groups
+Documents     : Land records, ID proof, passport photo; can be applied at any bank branch
+Benefit       : Also covers accident insurance; ₹50,000 disability + ₹2.5 lakh death
+
+═══════════════════════════════════════════════════════════════════════
+5. PM KRISHI SINCHAYEE YOJANA (PMKSY)
+═══════════════════════════════════════════════════════════════════════
+Motto         : "Har Khet Ko Pani, More Crop Per Drop"
+Components    :
+  a) Accelerated Irrigation Benefits Programme (AIBP) – major/medium irrigation
+  b) HKKP – Har Khet Ko Pani (groundwater development, watershed)
+  c) WDC-PMKSY – Watershed Development Component
+  d) Per Drop More Crop – micro-irrigation (drip & sprinkler)
+Subsidy (micro-irrigation):
+  - SC/ST/Small/Marginal: 55% on drip, 45% on sprinkler
+  - Others: 45% on drip, 35% on sprinkler
+Apply through: State Horticulture / Agriculture Department; pmksy.gov.in
+
+═══════════════════════════════════════════════════════════════════════
+6. RASHTRIYA KRISHI VIKAS YOJANA (RKVY)
+═══════════════════════════════════════════════════════════════════════
+Type          : Umbrella scheme; capital investment in agriculture
+Focus areas   : Infrastructure, food processing, FPO support, agri-startups, mechanisation
+RAFTAAR component: Agri-entrepreneurship programme (loans up to ₹25 lakh with 40% grant)
+Apply         : State Agriculture Department
+
+═══════════════════════════════════════════════════════════════════════
+7. SOIL HEALTH CARD (SHC) SCHEME
+═══════════════════════════════════════════════════════════════════════
+What          : Free soil testing + customised fertiliser recommendation card
+Frequency     : Every 2 years
+How           : Collect soil from 0-15 cm depth; submit to nearest Soil Testing Lab
+Parameters tested: pH, EC, OC, N, P, K, S, Zn, Fe, Mn, Cu, B
+Benefits      : Saves on excess fertiliser; improves soil health; required for FPO loans
+Portal        : soilhealth.dac.gov.in
+
+═══════════════════════════════════════════════════════════════════════
+8. eNAM – NATIONAL AGRICULTURE MARKET
+═══════════════════════════════════════════════════════════════════════
+What          : Online trading platform for APMC mandis
+Purpose       : Transparent price discovery; reduce middlemen
+Participation : Farmer can sell online to any registered trader across India
+Current mandis: 1,361 mandis across 23 states (as of 2024)
+How to join   : Register at enam.gov.in or through local APMC office
+Benefit       : Better price realization; direct payment to bank account
+
+═══════════════════════════════════════════════════════════════════════
+9. PM KUSUM YOJANA (Kisan Urja Suraksha & Utthaan Mahabhiyan)
+═══════════════════════════════════════════════════════════════════════
+Purpose       : Solar-powered irrigation pumps; grid-connected solar plants on farm land
+Components:
+  Component A: 10 GW decentralised ground-mounted solar plants (₹ income to farmers)
+  Component B: 20 lakh standalone solar pumps (subsidy: Central 30% + State 30% = 60%)
+  Component C: Solarisation of grid-connected pumps (same subsidy structure)
+Apply         : State DISCOM / Renewable Energy Department
+
+═══════════════════════════════════════════════════════════════════════
+10. FARMER PRODUCER ORGANISATIONS (FPOs)
+═══════════════════════════════════════════════════════════════════════
+Target        : 10,000 FPOs by 2024-25
+Formation     : Min. 10 farmers to form; registered under Companies Act / Cooperative Act
+Benefits per FPO:
+  - Equity grant up to ₹18 lakh from NABARD/SFAC
+  - Credit guarantee (CGFMU) up to ₹2 crore
+  - CBOs/NGOs as Cluster-Based Business Organisations (CBBOs) provide handholding
+  - Reduced input costs through collective purchase; better market access
+Apply         : SFAC (sfacindia.com), NABARD, State Cooperative Dept.
+
+═══════════════════════════════════════════════════════════════════════
+IMPORTANT HELPLINE NUMBERS
+═══════════════════════════════════════════════════════════════════════
+Kisan Call Centre  : 1800-180-1551 (toll free, 6 AM – 10 PM, all days)
+PM-Kisan           : 155261 / 011-24300606
+PMFBY crop insurance: 14447
+Weather forecasting: IMD Agromet (imd.gov.in)
+Soil testing       : Nearest KVK (Krishi Vigyan Kendra)
+eNAM helpdesk      : 1800-270-0224
+NABKISAN loans     : 1800-200-8888

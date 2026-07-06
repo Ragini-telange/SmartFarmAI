@@ -1,0 +1,185 @@
+{
+  "_meta": {
+    "description": "Typical seasonal weather for major Indian states/regions by month. All temperatures in °C, rainfall in mm/month.",
+    "source": "IMD agroclimatic zone averages (historical normals)",
+    "disclaimer": "Typical seasonal averages — not live/real-time data."
+  },
+  "states": {
+    "Punjab": {
+      "region": "North India – IGP",
+      "seasons": {
+        "Rabi (Oct–Mar)": "Cool and dry. Wheat sowing season.",
+        "Kharif (Jun–Sep)": "Hot and humid with monsoon rains. Paddy season.",
+        "Zaid (Apr–May)": "Hot and dry. Short-duration crops."
+      },
+      "months": {
+        "Jan": { "temp_max": 19, "temp_min": 6,  "humidity": 72, "rainfall": 28,  "weather": "Cold & Foggy",    "icon": "❄️", "farming_tip": "Irrigate wheat at CRI stage. Watch for yellow rust." },
+        "Feb": { "temp_max": 22, "temp_min": 9,  "humidity": 65, "rainfall": 25,  "weather": "Cool & Mild",     "icon": "🌤️", "farming_tip": "Apply second irrigation to wheat. Sow spring maize." },
+        "Mar": { "temp_max": 28, "temp_min": 14, "humidity": 55, "rainfall": 22,  "weather": "Warm & Pleasant", "icon": "🌤️", "farming_tip": "Wheat heading stage – watch for aphids. Top-dress nitrogen." },
+        "Apr": { "temp_max": 36, "temp_min": 21, "humidity": 40, "rainfall": 12,  "weather": "Hot & Dry",       "icon": "☀️", "farming_tip": "Harvest wheat. Land prep for Kharif. Irrigate orchards." },
+        "May": { "temp_max": 40, "temp_min": 26, "humidity": 38, "rainfall": 15,  "weather": "Very Hot",        "icon": "🌡️", "farming_tip": "Deep ploughing. Sow summer moong. Ensure water for nurseries." },
+        "Jun": { "temp_max": 39, "temp_min": 27, "humidity": 52, "rainfall": 45,  "weather": "Pre-Monsoon",     "icon": "⛅", "farming_tip": "Transplant paddy nursery. Apply basal dose fertiliser." },
+        "Jul": { "temp_max": 34, "temp_min": 26, "humidity": 80, "rainfall": 195, "weather": "Monsoon",         "icon": "🌧️", "farming_tip": "Monitor paddy for BPH. Delay spraying during heavy rain." },
+        "Aug": { "temp_max": 33, "temp_min": 25, "humidity": 83, "rainfall": 185, "weather": "Heavy Monsoon",   "icon": "⛈️", "farming_tip": "High humidity – watch for blast and blight in rice." },
+        "Sep": { "temp_max": 33, "temp_min": 23, "humidity": 72, "rainfall": 95,  "weather": "Retreating Monsoon","icon": "🌦️", "farming_tip": "Paddy grain-fill stage. Apply potash. Reduce irrigation." },
+        "Oct": { "temp_max": 32, "temp_min": 17, "humidity": 55, "rainfall": 18,  "weather": "Post-Monsoon",    "icon": "🌤️", "farming_tip": "Sow wheat (timely). Harvest kharif crops. Land preparation." },
+        "Nov": { "temp_max": 26, "temp_min": 11, "humidity": 62, "rainfall": 8,   "weather": "Cool & Clear",    "icon": "🌤️", "farming_tip": "Wheat germination stage. Keep fields moist. Sow mustard." },
+        "Dec": { "temp_max": 20, "temp_min": 7,  "humidity": 74, "rainfall": 15,  "weather": "Cold & Foggy",    "icon": "🌫️", "farming_tip": "Fog risk – monitor for frost in low-lying fields. Irrigate wheat." }
+      }
+    },
+    "Maharashtra": {
+      "region": "West & Deccan India",
+      "seasons": {
+        "Kharif (Jun–Sep)": "Monsoon season. Main cropping period for cotton, soybean, jowar.",
+        "Rabi (Oct–Feb)": "Mild and dry. Wheat, gram, rabi jowar, onion.",
+        "Summer (Mar–May)": "Hot and dry. Limited irrigation-based crops."
+      },
+      "months": {
+        "Jan": { "temp_max": 31, "temp_min": 14, "humidity": 52, "rainfall": 5,   "weather": "Cool & Dry",      "icon": "🌤️", "farming_tip": "Harvest rabi jowar and gram. Irrigate onion. Watch for thrips." },
+        "Feb": { "temp_max": 34, "temp_min": 17, "humidity": 45, "rainfall": 4,   "weather": "Warm & Dry",      "icon": "☀️", "farming_tip": "Sow summer crops under irrigation. Harvest rabi vegetables." },
+        "Mar": { "temp_max": 37, "temp_min": 21, "humidity": 38, "rainfall": 8,   "weather": "Hot & Dry",       "icon": "🌡️", "farming_tip": "Harvest onion. Summer ploughing. Water stress management." },
+        "Apr": { "temp_max": 40, "temp_min": 25, "humidity": 35, "rainfall": 10,  "weather": "Very Hot",        "icon": "🌡️", "farming_tip": "Deep ploughing. Soil solarisation. Prepare nurseries for kharif." },
+        "May": { "temp_max": 40, "temp_min": 26, "humidity": 48, "rainfall": 20,  "weather": "Hot, Pre-Monsoon","icon": "⛅", "farming_tip": "Pre-monsoon showers. Sow dry-sown cotton in Vidarbha." },
+        "Jun": { "temp_max": 35, "temp_min": 25, "humidity": 72, "rainfall": 110, "weather": "Monsoon Onset",   "icon": "🌧️", "farming_tip": "Sow soybean, cotton, arhar. Apply basal fertiliser before sowing." },
+        "Jul": { "temp_max": 30, "temp_min": 23, "humidity": 87, "rainfall": 180, "weather": "Peak Monsoon",    "icon": "⛈️", "farming_tip": "Watch for downy mildew in soybean. Weed management critical." },
+        "Aug": { "temp_max": 29, "temp_min": 22, "humidity": 88, "rainfall": 155, "weather": "Heavy Monsoon",   "icon": "⛈️", "farming_tip": "Cotton boll formation. Scout for pink bollworm." },
+        "Sep": { "temp_max": 30, "temp_min": 22, "humidity": 78, "rainfall": 120, "weather": "Monsoon",         "icon": "🌦️", "farming_tip": "Soybean pod fill. Monitor for leaf miner. Harvest early varieties." },
+        "Oct": { "temp_max": 33, "temp_min": 20, "humidity": 62, "rainfall": 55,  "weather": "Post-Monsoon",    "icon": "⛅", "farming_tip": "Harvest soybean. Sow rabi onion & wheat. Cotton boll opening." },
+        "Nov": { "temp_max": 32, "temp_min": 16, "humidity": 50, "rainfall": 20,  "weather": "Cool & Pleasant", "icon": "🌤️", "farming_tip": "Pick cotton. Sow gram and rabi jowar. Apply irrigation to onion." },
+        "Dec": { "temp_max": 30, "temp_min": 13, "humidity": 48, "rainfall": 6,   "weather": "Cool & Dry",      "icon": "🌤️", "farming_tip": "Cool nights good for rabi crops. Irrigate gram. Apply sulfur for onion." }
+      }
+    },
+    "Uttar Pradesh": {
+      "region": "North India – IGP",
+      "seasons": {
+        "Rabi (Oct–Mar)": "Wheat, mustard, potato. Cold winters.",
+        "Kharif (Jun–Sep)": "Paddy, sugarcane, pulses. Hot and humid monsoon.",
+        "Zaid (Apr–May)": "Summer vegetables and moong."
+      },
+      "months": {
+        "Jan": { "temp_max": 20, "temp_min": 7,  "humidity": 75, "rainfall": 22,  "weather": "Cold & Foggy",    "icon": "❄️", "farming_tip": "Irrigate wheat at jointing. Cold waves – protect potato." },
+        "Feb": { "temp_max": 24, "temp_min": 10, "humidity": 66, "rainfall": 20,  "weather": "Cool",            "icon": "🌤️", "farming_tip": "Wheat flowering. Top-dress urea. Sow summer vegetables." },
+        "Mar": { "temp_max": 30, "temp_min": 16, "humidity": 54, "rainfall": 15,  "weather": "Warm",            "icon": "🌤️", "farming_tip": "Wheat grain fill – critical irrigation. Harvest rabi mustard." },
+        "Apr": { "temp_max": 37, "temp_min": 22, "humidity": 38, "rainfall": 8,   "weather": "Hot & Dry",       "icon": "☀️", "farming_tip": "Harvest wheat. Land prep. Irrigate sugarcane." },
+        "May": { "temp_max": 41, "temp_min": 27, "humidity": 38, "rainfall": 10,  "weather": "Very Hot",        "icon": "🌡️", "farming_tip": "Sow moong/urad. Deep ploughing. Heat stress – irrigate orchards." },
+        "Jun": { "temp_max": 40, "temp_min": 29, "humidity": 55, "rainfall": 55,  "weather": "Hot, Pre-Monsoon","icon": "⛅", "farming_tip": "Paddy nursery. Sow arhar/tur. Prepare kharif fields." },
+        "Jul": { "temp_max": 34, "temp_min": 26, "humidity": 82, "rainfall": 230, "weather": "Monsoon",         "icon": "🌧️", "farming_tip": "Transplant paddy. Weed control. Watch for stem borer." },
+        "Aug": { "temp_max": 33, "temp_min": 25, "humidity": 84, "rainfall": 240, "weather": "Peak Monsoon",    "icon": "⛈️", "farming_tip": "High humidity – fungal disease risk. Scout for BPH in paddy." },
+        "Sep": { "temp_max": 33, "temp_min": 23, "humidity": 74, "rainfall": 175, "weather": "Retreating Monsoon","icon": "🌦️", "farming_tip": "Paddy ripening. Top-dress sugarcane. Harvest early moong." },
+        "Oct": { "temp_max": 32, "temp_min": 18, "humidity": 58, "rainfall": 30,  "weather": "Post-Monsoon",    "icon": "🌤️", "farming_tip": "Sow wheat and mustard. Harvest kharif crops." },
+        "Nov": { "temp_max": 27, "temp_min": 12, "humidity": 62, "rainfall": 10,  "weather": "Cool",            "icon": "🌤️", "farming_tip": "Wheat germination. Sow potato. Harvest paddy." },
+        "Dec": { "temp_max": 22, "temp_min": 8,  "humidity": 72, "rainfall": 15,  "weather": "Cold & Foggy",    "icon": "🌫️", "farming_tip": "Cold stress – protect nurseries. Irrigate wheat at CRI. Fog alerts." }
+      }
+    },
+    "Gujarat": {
+      "region": "West India",
+      "seasons": {
+        "Kharif (Jun–Sep)": "Cotton, groundnut, bajra. SW monsoon rains.",
+        "Rabi (Oct–Feb)": "Wheat, mustard, cumin, isabgol. Dry and mild.",
+        "Summer (Mar–May)": "Very hot and dry."
+      },
+      "months": {
+        "Jan": { "temp_max": 29, "temp_min": 12, "humidity": 55, "rainfall": 4,   "weather": "Cool & Dry",      "icon": "🌤️", "farming_tip": "Cumin and isabgol harvest. Irrigate wheat and mustard." },
+        "Feb": { "temp_max": 32, "temp_min": 15, "humidity": 48, "rainfall": 2,   "weather": "Warm & Dry",      "icon": "☀️", "farming_tip": "Mustard harvest. Sow summer crops under canal irrigation." },
+        "Mar": { "temp_max": 37, "temp_min": 20, "humidity": 38, "rainfall": 3,   "weather": "Hot & Dry",       "icon": "🌡️", "farming_tip": "Groundnut land prep. Heat management for mango orchards." },
+        "Apr": { "temp_max": 40, "temp_min": 25, "humidity": 35, "rainfall": 2,   "weather": "Very Hot",        "icon": "🌡️", "farming_tip": "Deep ploughing. Prepare cotton nursery. Irrigate orchards." },
+        "May": { "temp_max": 41, "temp_min": 27, "humidity": 45, "rainfall": 8,   "weather": "Hot, Pre-Monsoon","icon": "⛅", "farming_tip": "Sow cotton (pre-monsoon) in Saurashtra. Monitor water levels." },
+        "Jun": { "temp_max": 37, "temp_min": 27, "humidity": 68, "rainfall": 70,  "weather": "Monsoon Onset",   "icon": "🌧️", "farming_tip": "Sow groundnut and bajra. Apply basal fertiliser with sowing." },
+        "Jul": { "temp_max": 33, "temp_min": 26, "humidity": 84, "rainfall": 210, "weather": "Peak Monsoon",    "icon": "⛈️", "farming_tip": "Cotton square and flowering. Watch for sucking pests. Weed control." },
+        "Aug": { "temp_max": 31, "temp_min": 25, "humidity": 86, "rainfall": 195, "weather": "Heavy Monsoon",   "icon": "⛈️", "farming_tip": "Groundnut pegging. Avoid waterlogging. Scout for leaf miner." },
+        "Sep": { "temp_max": 32, "temp_min": 24, "humidity": 76, "rainfall": 100, "weather": "Retreating Monsoon","icon": "🌦️", "farming_tip": "Groundnut pod formation. Cotton boll opening starts." },
+        "Oct": { "temp_max": 35, "temp_min": 20, "humidity": 58, "rainfall": 18,  "weather": "Post-Monsoon",    "icon": "🌤️", "farming_tip": "Harvest groundnut. Sow wheat and cumin. Cotton first picking." },
+        "Nov": { "temp_max": 33, "temp_min": 16, "humidity": 50, "rainfall": 5,   "weather": "Cool & Dry",      "icon": "🌤️", "farming_tip": "Second cotton picking. Irrigate wheat. Sow isabgol." },
+        "Dec": { "temp_max": 29, "temp_min": 12, "humidity": 52, "rainfall": 3,   "weather": "Cool & Dry",      "icon": "🌤️", "farming_tip": "Cumin sowing in Saurashtra. Irrigate wheat. Cool nights good for rabi." }
+      }
+    },
+    "Karnataka": {
+      "region": "South India – Deccan & Coastal",
+      "seasons": {
+        "Kharif (Jun–Oct)": "SW Monsoon. Paddy, maize, ragi, cotton.",
+        "Rabi (Nov–Feb)": "NE monsoon + dry. Jowar, sunflower, vegetables.",
+        "Summer (Mar–May)": "Hot. Horticulture crops."
+      },
+      "months": {
+        "Jan": { "temp_max": 28, "temp_min": 15, "humidity": 60, "rainfall": 10,  "weather": "Cool & Dry",      "icon": "🌤️", "farming_tip": "Harvest rabi jowar. Irrigate groundnut. Cool nights help tuber crops." },
+        "Feb": { "temp_max": 31, "temp_min": 17, "humidity": 52, "rainfall": 8,   "weather": "Warm & Dry",      "icon": "☀️", "farming_tip": "Sunflower harvest. Sow summer groundnut under irrigation." },
+        "Mar": { "temp_max": 34, "temp_min": 20, "humidity": 48, "rainfall": 10,  "weather": "Hot",             "icon": "🌡️", "farming_tip": "Mango harvest in Ramanagara. Irrigate chilli. Pre-kharif ploughing." },
+        "Apr": { "temp_max": 36, "temp_min": 23, "humidity": 55, "rainfall": 25,  "weather": "Hot & Pre-Monsoon","icon": "⛅", "farming_tip": "Pre-monsoon showers. Sow paddy nursery in coastal Karnataka." },
+        "May": { "temp_max": 35, "temp_min": 24, "humidity": 65, "rainfall": 50,  "weather": "Pre-Monsoon Showers","icon": "🌦️", "farming_tip": "Prepare kharif fields. Land levelling. Apply FYM and lime." },
+        "Jun": { "temp_max": 30, "temp_min": 22, "humidity": 80, "rainfall": 100, "weather": "SW Monsoon",      "icon": "🌧️", "farming_tip": "Sow maize, ragi, arhar. Transplant paddy in Malnad and coastal areas." },
+        "Jul": { "temp_max": 28, "temp_min": 21, "humidity": 88, "rainfall": 120, "weather": "Peak Monsoon",    "icon": "⛈️", "farming_tip": "Weed management in paddy and maize. Watch for stem borer." },
+        "Aug": { "temp_max": 28, "temp_min": 21, "humidity": 87, "rainfall": 110, "weather": "Monsoon",         "icon": "🌧️", "farming_tip": "Maize tasseling and silking. Kharif groundnut pod formation." },
+        "Sep": { "temp_max": 29, "temp_min": 21, "humidity": 82, "rainfall": 130, "weather": "Active Monsoon",  "icon": "🌦️", "farming_tip": "Harvest early paddy. Sow rabi groundnut. Monitor for late blight." },
+        "Oct": { "temp_max": 29, "temp_min": 20, "humidity": 74, "rainfall": 140, "weather": "NE Monsoon",      "icon": "🌧️", "farming_tip": "NE monsoon active. Sow rabi jowar and sunflower." },
+        "Nov": { "temp_max": 28, "temp_min": 18, "humidity": 66, "rainfall": 50,  "weather": "Post-Monsoon",    "icon": "🌤️", "farming_tip": "Harvest kharif crops. Sow rabi vegetables. Irrigate orchards." },
+        "Dec": { "temp_max": 27, "temp_min": 15, "humidity": 60, "rainfall": 15,  "weather": "Cool & Dry",      "icon": "🌤️", "farming_tip": "Cool conditions ideal for potato and tomato. Irrigate rabi crops." }
+      }
+    },
+    "West Bengal": {
+      "region": "East India – Humid",
+      "seasons": {
+        "Kharif (Jun–Nov)": "Paddy (Aman). Heavy monsoon.",
+        "Rabi (Dec–Mar)": "Wheat, mustard, vegetables. Boro paddy (irrigated).",
+        "Pre-Kharif (Apr–May)": "Aus paddy. Summer vegetables."
+      },
+      "months": {
+        "Jan": { "temp_max": 24, "temp_min": 12, "humidity": 72, "rainfall": 18,  "weather": "Cool & Mild",     "icon": "🌤️", "farming_tip": "Boro paddy transplanting. Irrigate mustard and vegetables." },
+        "Feb": { "temp_max": 28, "temp_min": 15, "humidity": 65, "rainfall": 22,  "weather": "Mild & Pleasant", "icon": "🌤️", "farming_tip": "Mustard harvest. Sow spring vegetables. Boro paddy tillering." },
+        "Mar": { "temp_max": 33, "temp_min": 20, "humidity": 60, "rainfall": 30,  "weather": "Warm",            "icon": "🌤️", "farming_tip": "Boro paddy flowering. Harvest winter vegetables. Hot spells possible." },
+        "Apr": { "temp_max": 36, "temp_min": 24, "humidity": 68, "rainfall": 55,  "weather": "Hot, Pre-Monsoon","icon": "⛅", "farming_tip": "Aus paddy sowing. Harvesting boro paddy. Prepare Kharif beds." },
+        "May": { "temp_max": 36, "temp_min": 26, "humidity": 76, "rainfall": 120, "weather": "Pre-Monsoon",     "icon": "🌦️", "farming_tip": "Aman nursery raised. Heavy storms possible – protect seedlings." },
+        "Jun": { "temp_max": 33, "temp_min": 26, "humidity": 84, "rainfall": 200, "weather": "Monsoon",         "icon": "🌧️", "farming_tip": "Transplant Aman paddy. Apply basal N. Weed control critical." },
+        "Jul": { "temp_max": 32, "temp_min": 26, "humidity": 88, "rainfall": 280, "weather": "Peak Monsoon",    "icon": "⛈️", "farming_tip": "Monitor for blast and sheath blight in paddy. Flood risk." },
+        "Aug": { "temp_max": 32, "temp_min": 26, "humidity": 87, "rainfall": 260, "weather": "Heavy Monsoon",   "icon": "⛈️", "farming_tip": "Paddy tillering. Drain excess water. Watch for BPH." },
+        "Sep": { "temp_max": 32, "temp_min": 25, "humidity": 84, "rainfall": 220, "weather": "Monsoon",         "icon": "🌦️", "farming_tip": "Paddy panicle initiation. Avoid N top-dress now. Prepare rabi fields." },
+        "Oct": { "temp_max": 31, "temp_min": 22, "humidity": 76, "rainfall": 95,  "weather": "Post-Monsoon",    "icon": "🌤️", "farming_tip": "Paddy harvest (early Aman). Sow mustard and potato." },
+        "Nov": { "temp_max": 29, "temp_min": 17, "humidity": 70, "rainfall": 25,  "weather": "Cool & Pleasant", "icon": "🌤️", "farming_tip": "Harvest Aman paddy. Transplant Boro nursery. Sow winter vegetables." },
+        "Dec": { "temp_max": 25, "temp_min": 13, "humidity": 72, "rainfall": 12,  "weather": "Cool",            "icon": "🌤️", "farming_tip": "Cool conditions ideal for potato. Boro paddy nursery prep." }
+      }
+    },
+    "Andhra Pradesh": {
+      "region": "South India – Krishna-Godavari Delta & Rayalaseema",
+      "seasons": {
+        "Kharif (Jun–Nov)": "Paddy (Krishna-Godavari delta), cotton, maize.",
+        "Rabi (Dec–Mar)": "Paddy, groundnut, tobacco, pulses.",
+        "Summer (Apr–May)": "Hot; limited irrigated crops."
+      },
+      "months": {
+        "Jan": { "temp_max": 30, "temp_min": 18, "humidity": 72, "rainfall": 10,  "weather": "Cool & Mild",     "icon": "🌤️", "farming_tip": "Rabi paddy flowering. Irrigate groundnut. Monitor for leaf miner." },
+        "Feb": { "temp_max": 33, "temp_min": 20, "humidity": 65, "rainfall": 8,   "weather": "Warm",            "icon": "☀️", "farming_tip": "Harvest rabi groundnut. Tobacco harvesting in Guntur." },
+        "Mar": { "temp_max": 37, "temp_min": 24, "humidity": 58, "rainfall": 8,   "weather": "Hot",             "icon": "🌡️", "farming_tip": "Summer ploughing. Irrigate orchards. Monitor mango for hoppers." },
+        "Apr": { "temp_max": 40, "temp_min": 27, "humidity": 55, "rainfall": 15,  "weather": "Very Hot",        "icon": "🌡️", "farming_tip": "Pre-monsoon showers possible. Prepare kharif nurseries." },
+        "May": { "temp_max": 40, "temp_min": 28, "humidity": 62, "rainfall": 30,  "weather": "Hot & Humid",     "icon": "⛅", "farming_tip": "Sow kharif groundnut in Rayalaseema. Early cotton sowing." },
+        "Jun": { "temp_max": 37, "temp_min": 27, "humidity": 72, "rainfall": 65,  "weather": "Monsoon Onset",   "icon": "🌧️", "farming_tip": "Transplant paddy in delta areas. Sow cotton and maize." },
+        "Jul": { "temp_max": 33, "temp_min": 25, "humidity": 85, "rainfall": 130, "weather": "Monsoon",         "icon": "🌧️", "farming_tip": "Paddy tillering. Watch for gall midge. Weed kharif crops." },
+        "Aug": { "temp_max": 32, "temp_min": 24, "humidity": 87, "rainfall": 140, "weather": "Active Monsoon",  "icon": "⛈️", "farming_tip": "Cotton boll formation. Scout for bollworm. High humidity – fungal risk." },
+        "Sep": { "temp_max": 32, "temp_min": 24, "humidity": 85, "rainfall": 155, "weather": "Active Monsoon",  "icon": "⛈️", "farming_tip": "Harvest early paddy. Cotton picking starts. Watch for cyclones." },
+        "Oct": { "temp_max": 31, "temp_min": 22, "humidity": 78, "rainfall": 155, "weather": "NE Monsoon",      "icon": "🌧️", "farming_tip": "NE monsoon brings heavy rain. Rabi paddy transplanting." },
+        "Nov": { "temp_max": 30, "temp_min": 19, "humidity": 72, "rainfall": 65,  "weather": "Post-Monsoon",    "icon": "🌤️", "farming_tip": "Harvest kharif cotton. Sow rabi groundnut. Irrigate paddy." },
+        "Dec": { "temp_max": 28, "temp_min": 16, "humidity": 68, "rainfall": 20,  "weather": "Cool & Mild",     "icon": "🌤️", "farming_tip": "Rabi paddy panicle initiation. Irrigate groundnut. Cool and dry." }
+      }
+    },
+    "Rajasthan": {
+      "region": "North-West India – Arid & Semi-Arid",
+      "seasons": {
+        "Kharif (Jul–Oct)": "Bajra, cluster bean, moth bean. Limited monsoon rains.",
+        "Rabi (Oct–Mar)": "Wheat, mustard, cumin, coriander. Main crop season.",
+        "Zaid (Apr–Jun)": "Very hot and dry. Almost no farming."
+      },
+      "months": {
+        "Jan": { "temp_max": 22, "temp_min": 7,  "humidity": 60, "rainfall": 8,   "weather": "Cold & Dry",      "icon": "❄️", "farming_tip": "Irrigate wheat at CRI and tillering. Harvest coriander." },
+        "Feb": { "temp_max": 26, "temp_min": 11, "humidity": 52, "rainfall": 10,  "weather": "Cool & Pleasant", "icon": "🌤️", "farming_tip": "Wheat flowering. Apply 2nd N top-dress. Mustard pod filling." },
+        "Mar": { "temp_max": 32, "temp_min": 17, "humidity": 42, "rainfall": 8,   "weather": "Warm & Dry",      "icon": "☀️", "farming_tip": "Harvest mustard. Irrigate wheat at grain filling." },
+        "Apr": { "temp_max": 38, "temp_min": 24, "humidity": 30, "rainfall": 4,   "weather": "Hot & Dry",       "icon": "🌡️", "farming_tip": "Harvest wheat. Deep ploughing. Conserve soil moisture." },
+        "May": { "temp_max": 42, "temp_min": 28, "humidity": 28, "rainfall": 5,   "weather": "Very Hot",        "icon": "🌡️", "farming_tip": "Extreme heat. Mulch fields. Protect livestock. Wait for monsoon." },
+        "Jun": { "temp_max": 42, "temp_min": 29, "humidity": 35, "rainfall": 18,  "weather": "Hot, Dust Storms","icon": "💨", "farming_tip": "Pre-monsoon sowing of cluster bean. Prepare furrows for rain." },
+        "Jul": { "temp_max": 36, "temp_min": 27, "humidity": 65, "rainfall": 90,  "weather": "Monsoon",         "icon": "🌧️", "farming_tip": "Sow bajra after monsoon onset. Weed control 15 DAS." },
+        "Aug": { "temp_max": 34, "temp_min": 26, "humidity": 72, "rainfall": 100, "weather": "Monsoon",         "icon": "🌧️", "farming_tip": "Bajra heading stage. Monitor for downy mildew. Inter-culture." },
+        "Sep": { "temp_max": 34, "temp_min": 24, "humidity": 62, "rainfall": 55,  "weather": "Retreating Monsoon","icon": "🌦️", "farming_tip": "Harvest cluster bean. Bajra harvest. Prepare rabi fields." },
+        "Oct": { "temp_max": 33, "temp_min": 19, "humidity": 45, "rainfall": 12,  "weather": "Cool & Dry",      "icon": "🌤️", "farming_tip": "Sow mustard and wheat (early). Apply basal fertiliser." },
+        "Nov": { "temp_max": 28, "temp_min": 13, "humidity": 48, "rainfall": 5,   "weather": "Cool",            "icon": "🌤️", "farming_tip": "Timely wheat sowing. Sow cumin and coriander in south Rajasthan." },
+        "Dec": { "temp_max": 23, "temp_min": 7,  "humidity": 55, "rainfall": 6,   "weather": "Cold & Clear",    "icon": "❄️", "farming_tip": "Cold nights – protect nurseries. Irrigate wheat at CRI stage." }
+      }
+    }
+  }
+}

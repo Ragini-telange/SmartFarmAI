@@ -1,0 +1,172 @@
+{
+  "_meta": {
+    "description": "Indicative/sample APMC mandi prices for common crops across Indian states.",
+    "source": "Derived from Agmarknet historical data and NAFED/government MSP references.",
+    "disclaimer": "Sample indicative prices only — not live market data. Actual prices vary daily. Consult your local APMC mandi or eNAM portal for current rates.",
+    "unit": "INR per quintal (100 kg)",
+    "last_updated": "2024"
+  },
+  "commodities": {
+    "Tomato": {
+      "msp": null,
+      "typical_season": "Oct–Feb (North); Apr–Jun (South)",
+      "records": [
+        { "state": "Maharashtra", "district": "Nashik",         "market": "Lasalgaon",    "variety": "Local",      "min": 400,  "max": 2200, "modal": 1100 },
+        { "state": "Maharashtra", "district": "Pune",           "market": "Pune (APMC)",  "variety": "Hybrid",     "min": 500,  "max": 2400, "modal": 1300 },
+        { "state": "Karnataka",   "district": "Kolar",          "market": "Kolar",         "variety": "Hybrid",     "min": 300,  "max": 1800, "modal": 950  },
+        { "state": "Andhra Pradesh","district": "Chittoor",     "market": "Madanapalle",   "variety": "Local",      "min": 350,  "max": 2000, "modal": 1000 },
+        { "state": "Madhya Pradesh","district": "Chhindwara",   "market": "Chhindwara",    "variety": "Hybrid",     "min": 500,  "max": 2100, "modal": 1200 },
+        { "state": "Uttar Pradesh","district": "Varanasi",      "market": "Varanasi",      "variety": "Local",      "min": 400,  "max": 1500, "modal": 850  },
+        { "state": "Himachal Pradesh","district":"Solan",       "market": "Solan",         "variety": "Local",      "min": 600,  "max": 2800, "modal": 1600 }
+      ]
+    },
+    "Onion": {
+      "msp": null,
+      "typical_season": "Nov–Feb (Rabi); Jul–Sep (Kharif)",
+      "records": [
+        { "state": "Maharashtra", "district": "Nashik",         "market": "Lasalgaon",    "variety": "Red",        "min": 600,  "max": 3200, "modal": 1400 },
+        { "state": "Maharashtra", "district": "Pune",           "market": "Pune",          "variety": "Red",        "min": 700,  "max": 3500, "modal": 1600 },
+        { "state": "Madhya Pradesh","district": "Indore",       "market": "Indore",        "variety": "White",      "min": 500,  "max": 2800, "modal": 1200 },
+        { "state": "Karnataka",   "district": "Bangalore",      "market": "Bangalore",     "variety": "Local",      "min": 600,  "max": 2600, "modal": 1350 },
+        { "state": "Rajasthan",   "district": "Alwar",          "market": "Alwar",         "variety": "Red",        "min": 550,  "max": 2500, "modal": 1300 },
+        { "state": "Gujarat",     "district": "Mehsana",        "market": "Mehsana",       "variety": "Red",        "min": 650,  "max": 3000, "modal": 1500 }
+      ]
+    },
+    "Potato": {
+      "msp": null,
+      "typical_season": "Jan–Mar (harvest); stored round the year",
+      "records": [
+        { "state": "Uttar Pradesh","district": "Agra",          "market": "Agra",          "variety": "Jyoti",      "min": 500,  "max": 1500, "modal": 850  },
+        { "state": "West Bengal",  "district": "Hooghly",       "market": "Hooghly",       "variety": "Local",      "min": 450,  "max": 1300, "modal": 780  },
+        { "state": "Punjab",       "district": "Jalandhar",     "market": "Jalandhar",     "variety": "Kufri Jyoti","min": 600,  "max": 1400, "modal": 950  },
+        { "state": "Bihar",        "district": "Patna",         "market": "Patna",         "variety": "Local",      "min": 400,  "max": 1200, "modal": 700  },
+        { "state": "Gujarat",      "district": "Mehsana",       "market": "Mehsana",       "variety": "Hybrid",     "min": 550,  "max": 1500, "modal": 950  },
+        { "state": "Madhya Pradesh","district": "Gwalior",      "market": "Gwalior",       "variety": "Local",      "min": 480,  "max": 1300, "modal": 800  }
+      ]
+    },
+    "Wheat": {
+      "msp": 2275,
+      "typical_season": "Apr–May (harvest)",
+      "records": [
+        { "state": "Punjab",       "district": "Ludhiana",      "market": "Ludhiana",      "variety": "HD-2967",    "min": 2200, "max": 2500, "modal": 2275 },
+        { "state": "Haryana",      "district": "Karnal",        "market": "Karnal",        "variety": "PBW-343",    "min": 2200, "max": 2450, "modal": 2275 },
+        { "state": "Uttar Pradesh","district": "Kanpur",        "market": "Kanpur",        "variety": "K-307",      "min": 2100, "max": 2350, "modal": 2200 },
+        { "state": "Madhya Pradesh","district": "Bhopal",       "market": "Bhopal",        "variety": "GW-322",     "min": 2050, "max": 2320, "modal": 2180 },
+        { "state": "Rajasthan",    "district": "Jaipur",        "market": "Jaipur",        "variety": "Local",      "min": 2000, "max": 2300, "modal": 2150 },
+        { "state": "Bihar",        "district": "Muzaffarpur",   "market": "Muzaffarpur",   "variety": "K-9107",     "min": 2050, "max": 2280, "modal": 2160 }
+      ]
+    },
+    "Rice": {
+      "msp": 2183,
+      "typical_season": "Oct–Dec (Kharif harvest)",
+      "records": [
+        { "state": "West Bengal",  "district": "Burdwan",       "market": "Burdwan",       "variety": "Swarna",     "min": 1900, "max": 2500, "modal": 2183 },
+        { "state": "Andhra Pradesh","district": "Krishna",      "market": "Vijayawada",    "variety": "Sona Masuri","min": 2000, "max": 2600, "modal": 2300 },
+        { "state": "Punjab",       "district": "Amritsar",      "market": "Amritsar",      "variety": "Basmati-1121","min": 3200, "max": 5200, "modal": 4200 },
+        { "state": "Tamil Nadu",   "district": "Thanjavur",     "market": "Thanjavur",     "variety": "Ponni",      "min": 2100, "max": 2900, "modal": 2500 },
+        { "state": "Odisha",       "district": "Cuttack",       "market": "Cuttack",       "variety": "Lalat",      "min": 1900, "max": 2350, "modal": 2100 },
+        { "state": "Uttar Pradesh","district": "Gorakhpur",     "market": "Gorakhpur",     "variety": "Common",     "min": 1850, "max": 2300, "modal": 2050 }
+      ]
+    },
+    "Cotton": {
+      "msp": 6620,
+      "typical_season": "Nov–Feb (picking)",
+      "records": [
+        { "state": "Gujarat",      "district": "Rajkot",        "market": "Rajkot",        "variety": "Shankar-6",  "min": 5800, "max": 7500, "modal": 6620 },
+        { "state": "Maharashtra",  "district": "Akola",         "market": "Akola",         "variety": "Bt Hybrid",  "min": 5600, "max": 7200, "modal": 6400 },
+        { "state": "Telangana",    "district": "Warangal",      "market": "Warangal",      "variety": "Bt",         "min": 5700, "max": 7300, "modal": 6500 },
+        { "state": "Madhya Pradesh","district": "Khandwa",      "market": "Khandwa",       "variety": "Local",      "min": 5400, "max": 6900, "modal": 6200 },
+        { "state": "Punjab",       "district": "Bathinda",      "market": "Bathinda",      "variety": "HD-324",     "min": 5900, "max": 7200, "modal": 6620 }
+      ]
+    },
+    "Soyabean": {
+      "msp": 4600,
+      "typical_season": "Oct–Nov (harvest)",
+      "records": [
+        { "state": "Madhya Pradesh","district": "Indore",       "market": "Indore",        "variety": "JS-335",     "min": 4000, "max": 5200, "modal": 4600 },
+        { "state": "Maharashtra",  "district": "Latur",         "market": "Latur",         "variety": "Yellow",     "min": 3900, "max": 5100, "modal": 4500 },
+        { "state": "Rajasthan",    "district": "Kota",          "market": "Kota",          "variety": "Local",      "min": 3800, "max": 5000, "modal": 4400 },
+        { "state": "Maharashtra",  "district": "Osmanabad",     "market": "Osmanabad",     "variety": "Yellow",     "min": 4100, "max": 5300, "modal": 4700 }
+      ]
+    },
+    "Groundnut": {
+      "msp": 6377,
+      "typical_season": "Oct–Nov (Kharif harvest); Feb–Mar (Rabi harvest)",
+      "records": [
+        { "state": "Gujarat",      "district": "Junagadh",      "market": "Junagadh",      "variety": "Bold",       "min": 5800, "max": 7500, "modal": 6377 },
+        { "state": "Andhra Pradesh","district": "Kurnool",      "market": "Kurnool",       "variety": "Local",      "min": 5500, "max": 7200, "modal": 6100 },
+        { "state": "Rajasthan",    "district": "Bikaner",       "market": "Bikaner",       "variety": "Local",      "min": 5200, "max": 7000, "modal": 5800 },
+        { "state": "Tamil Nadu",   "district": "Tirunelveli",   "market": "Tirunelveli",   "variety": "TMV-2",      "min": 5600, "max": 7400, "modal": 6300 }
+      ]
+    },
+    "Garlic": {
+      "msp": null,
+      "typical_season": "Feb–Apr (harvest)",
+      "records": [
+        { "state": "Madhya Pradesh","district": "Mandsaur",     "market": "Mandsaur",      "variety": "Desi",       "min": 1500, "max": 8000, "modal": 4000 },
+        { "state": "Rajasthan",    "district": "Kota",          "market": "Kota",          "variety": "Desi",       "min": 1200, "max": 7000, "modal": 3500 },
+        { "state": "Gujarat",      "district": "Gondal",        "market": "Gondal",        "variety": "Local",      "min": 1800, "max": 8500, "modal": 4500 },
+        { "state": "Uttar Pradesh","district": "Kanpur",        "market": "Kanpur",        "variety": "Local",      "min": 1400, "max": 7500, "modal": 3800 }
+      ]
+    },
+    "Chilli": {
+      "msp": null,
+      "typical_season": "Jan–Apr (harvest)",
+      "records": [
+        { "state": "Andhra Pradesh","district": "Guntur",       "market": "Guntur",        "variety": "Teja",       "min": 8000, "max": 22000,"modal": 14000 },
+        { "state": "Telangana",    "district": "Khammam",       "market": "Khammam",       "variety": "334",        "min": 7500, "max": 20000,"modal": 13000 },
+        { "state": "Karnataka",    "district": "Byadagi",       "market": "Byadagi",       "variety": "Byadagi",    "min": 10000,"max": 28000,"modal": 18000 },
+        { "state": "Madhya Pradesh","district": "Khargone",     "market": "Khargone",      "variety": "Local",      "min": 7000, "max": 18000,"modal": 12000 }
+      ]
+    },
+    "Maize": {
+      "msp": 2090,
+      "typical_season": "Sep–Oct (Kharif harvest)",
+      "records": [
+        { "state": "Karnataka",    "district": "Haveri",        "market": "Haveri",        "variety": "Hybrid",     "min": 1900, "max": 2400, "modal": 2090 },
+        { "state": "Andhra Pradesh","district": "Nizamabad",    "market": "Nizamabad",     "variety": "Local",      "min": 1800, "max": 2300, "modal": 2000 },
+        { "state": "Bihar",        "district": "Begusarai",     "market": "Begusarai",     "variety": "Hybrid",     "min": 1750, "max": 2250, "modal": 1950 },
+        { "state": "Rajasthan",    "district": "Bhilwara",      "market": "Bhilwara",      "variety": "Local",      "min": 1800, "max": 2300, "modal": 2050 }
+      ]
+    },
+    "Gram": {
+      "msp": 5440,
+      "typical_season": "Mar–Apr (Rabi harvest)",
+      "records": [
+        { "state": "Madhya Pradesh","district": "Sehore",       "market": "Sehore",        "variety": "Desi",       "min": 5000, "max": 6200, "modal": 5440 },
+        { "state": "Rajasthan",    "district": "Bikaner",       "market": "Bikaner",       "variety": "Desi",       "min": 4800, "max": 6000, "modal": 5300 },
+        { "state": "Maharashtra",  "district": "Latur",         "market": "Latur",         "variety": "Desi",       "min": 4900, "max": 6100, "modal": 5400 },
+        { "state": "Andhra Pradesh","district": "Kurnool",      "market": "Kurnool",       "variety": "Desi",       "min": 5100, "max": 6300, "modal": 5600 }
+      ]
+    },
+    "Arhar (Tur)": {
+      "msp": 7000,
+      "typical_season": "Dec–Feb (harvest)",
+      "records": [
+        { "state": "Maharashtra",  "district": "Latur",         "market": "Latur",         "variety": "Local",      "min": 6500, "max": 8500, "modal": 7000 },
+        { "state": "Karnataka",    "district": "Gulbarga",      "market": "Gulbarga",      "variety": "Local",      "min": 6200, "max": 8200, "modal": 6800 },
+        { "state": "Madhya Pradesh","district": "Sagar",        "market": "Sagar",         "variety": "Desi",       "min": 6700, "max": 8800, "modal": 7200 },
+        { "state": "Andhra Pradesh","district": "Kurnool",      "market": "Kurnool",       "variety": "Local",      "min": 6500, "max": 8400, "modal": 7100 }
+      ]
+    },
+    "Rapeseed/Mustard": {
+      "msp": 5650,
+      "typical_season": "Mar–Apr (Rabi harvest)",
+      "records": [
+        { "state": "Rajasthan",    "district": "Bharatpur",     "market": "Bharatpur",     "variety": "Yellow Sarson","min": 5400, "max": 6500, "modal": 5650 },
+        { "state": "Haryana",      "district": "Hisar",         "market": "Hisar",         "variety": "Local",      "min": 5300, "max": 6400, "modal": 5600 },
+        { "state": "Uttar Pradesh","district": "Agra",          "market": "Agra",          "variety": "Local",      "min": 5200, "max": 6200, "modal": 5500 },
+        { "state": "Madhya Pradesh","district": "Gwalior",      "market": "Gwalior",       "variety": "Desi",       "min": 5100, "max": 6100, "modal": 5450 }
+      ]
+    },
+    "Bajra": {
+      "msp": 2500,
+      "typical_season": "Sep–Oct (Kharif harvest)",
+      "records": [
+        { "state": "Rajasthan",    "district": "Nagaur",        "market": "Nagaur",        "variety": "Local",      "min": 2200, "max": 2800, "modal": 2500 },
+        { "state": "Gujarat",      "district": "Mehsana",       "market": "Mehsana",       "variety": "Hybrid",     "min": 2200, "max": 2900, "modal": 2550 },
+        { "state": "Haryana",      "district": "Hisar",         "market": "Hisar",         "variety": "HHB-67",     "min": 2300, "max": 2800, "modal": 2500 }
+      ]
+    }
+  }
+}

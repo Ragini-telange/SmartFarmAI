@@ -1,0 +1,174 @@
+{
+  "_meta": {
+    "description": "Typical sowing and harvest months for major Indian crops by season.",
+    "source": "ICAR / State Agriculture Department guidelines",
+    "note": "Dates vary by region and variety. Consult your local KVK for exact dates."
+  },
+  "crops": [
+    {
+      "name": "Rice (Paddy)", "emoji": "🌾", "season": "Kharif",
+      "color": "#4caf50",
+      "sow_start": 5, "sow_end": 6,
+      "harvest_start": 9, "harvest_end": 11,
+      "sow_label": "Jun – Jul", "harvest_label": "Oct – Nov",
+      "states": "WB, UP, AP, Odisha, TN, Punjab",
+      "soil": "Clay / Clay-loam",
+      "msp": 2183,
+      "tip": "Transplant 25-30 day old seedlings. Maintain 4-6 cm water during vegetative stage."
+    },
+    {
+      "name": "Wheat", "emoji": "🌿", "season": "Rabi",
+      "color": "#ff9800",
+      "sow_start": 9, "sow_end": 10,
+      "harvest_start": 2, "harvest_end": 3,
+      "sow_label": "Oct – Nov", "harvest_label": "Mar – Apr",
+      "states": "Punjab, Haryana, UP, MP, Rajasthan",
+      "soil": "Loam / Clay-loam",
+      "msp": 2275,
+      "tip": "Timely sowing (1-25 Nov) gives best yield. Needs 6 irrigations at critical stages."
+    },
+    {
+      "name": "Cotton", "emoji": "🌼", "season": "Kharif",
+      "color": "#9c27b0",
+      "sow_start": 4, "sow_end": 5,
+      "harvest_start": 10, "harvest_end": 1,
+      "sow_label": "May – Jun", "harvest_label": "Nov – Feb",
+      "states": "Gujarat, Maharashtra, Telangana, AP, MP",
+      "soil": "Deep Black (Regur)",
+      "msp": 6620,
+      "tip": "Bt Cotton recommended. Pick in 3-4 pickings at 8-day intervals when bolls open."
+    },
+    {
+      "name": "Soybean", "emoji": "🫘", "season": "Kharif",
+      "color": "#8bc34a",
+      "sow_start": 5, "sow_end": 6,
+      "harvest_start": 9, "harvest_end": 10,
+      "sow_label": "Jun – Jul", "harvest_label": "Oct – Nov",
+      "states": "MP, Maharashtra, Rajasthan",
+      "soil": "Medium Black",
+      "msp": 4600,
+      "tip": "Seed treatment with Rhizobium reduces N fertiliser need by 25 kg N/ha."
+    },
+    {
+      "name": "Groundnut", "emoji": "🥜", "season": "Kharif",
+      "color": "#ff7043",
+      "sow_start": 5, "sow_end": 6,
+      "harvest_start": 9, "harvest_end": 10,
+      "sow_label": "Jun – Jul", "harvest_label": "Oct – Nov",
+      "states": "Gujarat, AP, Rajasthan, TN",
+      "soil": "Sandy Loam / Red Loam",
+      "msp": 6377,
+      "tip": "Apply gypsum 400 kg/ha at pegging stage for better pod filling."
+    },
+    {
+      "name": "Maize", "emoji": "🌽", "season": "Kharif",
+      "color": "#ffc107",
+      "sow_start": 5, "sow_end": 6,
+      "harvest_start": 8, "harvest_end": 9,
+      "sow_label": "Jun – Jul", "harvest_label": "Sep – Oct",
+      "states": "Karnataka, AP, Bihar, Rajasthan",
+      "soil": "Sandy Loam",
+      "msp": 2090,
+      "tip": "Hybrid maize gives 2x yield over local varieties. Ensure adequate K for strong stalks."
+    },
+    {
+      "name": "Onion", "emoji": "🧅", "season": "Rabi",
+      "color": "#e91e63",
+      "sow_start": 9, "sow_end": 10,
+      "harvest_start": 1, "harvest_end": 2,
+      "sow_label": "Oct – Nov", "harvest_label": "Feb – Mar",
+      "states": "Maharashtra, Karnataka, MP, Rajasthan",
+      "soil": "Medium Loam",
+      "msp": null,
+      "tip": "Rabi onion has better storage life. Cure bulbs for 10-15 days before storage."
+    },
+    {
+      "name": "Tomato", "emoji": "🍅", "season": "Rabi",
+      "color": "#f44336",
+      "sow_start": 9, "sow_end": 10,
+      "harvest_start": 11, "harvest_end": 1,
+      "sow_label": "Oct – Nov", "harvest_label": "Dec – Feb",
+      "states": "AP, MP, Karnataka, Gujarat, Odisha",
+      "soil": "Well-drained Loam",
+      "msp": null,
+      "tip": "Drip irrigation with fertigation increases yield by 40%. Use hybrid varieties for better shelf life."
+    },
+    {
+      "name": "Potato", "emoji": "🥔", "season": "Rabi",
+      "color": "#795548",
+      "sow_start": 9, "sow_end": 10,
+      "harvest_start": 0, "harvest_end": 1,
+      "sow_label": "Oct – Nov", "harvest_label": "Jan – Feb",
+      "states": "UP, WB, Punjab, Bihar, Gujarat",
+      "soil": "Sandy Loam",
+      "msp": null,
+      "tip": "Use certified seed tubers. Harvest when foliage turns yellow. Store at 4°C / 90% RH."
+    },
+    {
+      "name": "Mustard", "emoji": "🌻", "season": "Rabi",
+      "color": "#ffeb3b",
+      "sow_start": 9, "sow_end": 10,
+      "harvest_start": 1, "harvest_end": 2,
+      "sow_label": "Oct – Nov", "harvest_label": "Feb – Mar",
+      "states": "Rajasthan, UP, Haryana, MP",
+      "soil": "Sandy Loam",
+      "msp": 5650,
+      "tip": "Drip irrigation at branching and pod formation stages critical for yield."
+    },
+    {
+      "name": "Arhar (Tur)", "emoji": "🫘", "season": "Kharif",
+      "color": "#607d8b",
+      "sow_start": 5, "sow_end": 6,
+      "harvest_start": 11, "harvest_end": 1,
+      "sow_label": "Jun – Jul", "harvest_label": "Dec – Feb",
+      "states": "Maharashtra, UP, Karnataka, MP",
+      "soil": "Red / Black loam",
+      "msp": 7000,
+      "tip": "N-fixing legume. Reduce basal N to 20 kg/ha. Excellent intercrop with sorghum/maize."
+    },
+    {
+      "name": "Gram (Chickpea)", "emoji": "🫘", "season": "Rabi",
+      "color": "#00bcd4",
+      "sow_start": 9, "sow_end": 10,
+      "harvest_start": 1, "harvest_end": 2,
+      "sow_label": "Oct – Nov", "harvest_label": "Feb – Mar",
+      "states": "MP, Rajasthan, Maharashtra, AP",
+      "soil": "Medium Black / Loam",
+      "msp": 5440,
+      "tip": "Rainfed crop. Avoid waterlogging. Rhizobium seed treatment saves N fertiliser."
+    },
+    {
+      "name": "Sugarcane", "emoji": "🎋", "season": "Annual",
+      "color": "#009688",
+      "sow_start": 1, "sow_end": 2,
+      "harvest_start": 10, "harvest_end": 2,
+      "sow_label": "Feb – Mar (plant)", "harvest_label": "Nov – Feb",
+      "states": "UP, Maharashtra, TN, Karnataka",
+      "soil": "Deep Loamy",
+      "msp": 315,
+      "tip": "FRP (Fair & Remunerative Price) ₹315/quintal 2023-24. Ratoon crop saves replanting cost."
+    },
+    {
+      "name": "Bajra (Pearl Millet)", "emoji": "🌾", "season": "Kharif",
+      "color": "#ff5722",
+      "sow_start": 5, "sow_end": 6,
+      "harvest_start": 8, "harvest_end": 9,
+      "sow_label": "Jun – Jul", "harvest_label": "Sep – Oct",
+      "states": "Rajasthan, Gujarat, Haryana",
+      "soil": "Sandy / Sandy Loam",
+      "msp": 2500,
+      "tip": "Extremely drought tolerant. Sow at onset of monsoon. No irrigation needed on sandy soils."
+    },
+    {
+      "name": "Moong (Green Gram)", "emoji": "🫘", "season": "Zaid",
+      "color": "#66bb6a",
+      "sow_start": 1, "sow_end": 2,
+      "harvest_start": 4, "harvest_end": 4,
+      "sow_label": "Feb – Mar", "harvest_label": "May – Jun",
+      "states": "Rajasthan, UP, MP, AP",
+      "soil": "Sandy Loam",
+      "msp": 8558,
+      "tip": "Short-duration (60-65 days). Ideal summer/Zaid crop. Fixes nitrogen for next crop."
+    }
+  ]
+}

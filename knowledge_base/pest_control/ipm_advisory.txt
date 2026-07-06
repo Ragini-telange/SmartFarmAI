@@ -1,0 +1,157 @@
+PEST & DISEASE CONTROL ADVISORY
+================================
+SmartFarm AI Knowledge Base – Integrated Pest Management (IPM) Guide
+
+═══════════════════════════════════════════════════════════════════════
+SECTION 1: GENERAL IPM PRINCIPLES
+═══════════════════════════════════════════════════════════════════════
+
+Integrated Pest Management (IPM) is an eco-sensitive approach that combines:
+1. Cultural controls (crop rotation, resistant varieties, spacing)
+2. Mechanical/physical controls (traps, barriers, manual removal)
+3. Biological controls (natural enemies, Bt, NPV)
+4. Chemical controls (pesticides as last resort)
+
+ALWAYS follow the IPM pyramid: Cultural → Mechanical → Biological → Chemical.
+
+═══════════════════════════════════════════════════════════════════════
+SECTION 2: COMMON INSECT PESTS – ALL CROPS
+═══════════════════════════════════════════════════════════════════════
+
+PEST: American Bollworm / Pod Borer (Helicoverpa armigera)
+-----------------------------------------------------------------
+Crops affected: Cotton, Tomato, Chickpea, Maize, Sorghum, Sunflower
+Symptoms: Circular holes in bolls/pods/fruits; caterpillar inside fruit
+IPM:
+  Cultural: Destroy crop residue; deep ploughing post-harvest
+  Mechanical: Pheromone traps 5/ha (Helilure); light traps 1/ha
+  Biological: SpNPV @ 250 LE/ha; Bt (Bacillus thuringiensis) @ 1 kg/ha
+  Chemical: Emamectin 5 SG @ 0.4 g/l; Spinosad 45 SC @ 0.3 ml/l
+  Note: Rotate insecticides to avoid resistance; do NOT use pyrethroids alone.
+
+PEST: Whitefly (Bemisia tabaci)
+-----------------------------------------------------------------
+Crops affected: Cotton, Tomato, Okra, Brinjal, Chilli
+Symptoms: Yellow stippling on leaves; sticky honeydew; sooty mould; virus vector (TLCV, CLCuV)
+IPM:
+  Cultural: Remove weed hosts; avoid continuous cotton; use reflective mulch
+  Mechanical: Yellow sticky traps @ 10/ha; screen nurseries
+  Biological: Encarsia formosa parasitoid; Neem oil 5% spray
+  Chemical: Spiromesifen 22.9 SC @ 1 ml/l; Diafenthiuron 50 WP @ 1 g/l
+  Note: Imidacloprid 70 WG as seed treatment delays early infestation.
+
+PEST: Aphids (Various species)
+-----------------------------------------------------------------
+Crops affected: Wheat, Mustard, Chilli, Tomato, Brinjal, Pulses
+Symptoms: Curling leaves; sticky honeydew; yellowing; transmit mosaic viruses
+IPM:
+  Cultural: Avoid excessive N; plant border crops of coriander/mustard for natural enemies
+  Biological: Chrysoperla larvae @ 10,000/ha; Syrphid fly conservation
+  Chemical: Dimethoate 30 EC @ 1.5 ml/l; Thiamethoxam 25 WG @ 0.5 g/l
+
+PEST: Brown Plant Hopper / BPH (Nilaparvata lugens)
+-----------------------------------------------------------------
+Crops affected: Rice (paddy)
+Symptoms: "Hopperburn" – circular drying patches from base; honeydew + sooty mould
+IPM:
+  Cultural: Avoid excess N; wider spacing; drain field periodically
+  Biological: Mirid bugs, spiders as natural predators
+  Chemical: Imidacloprid 200 SL @ 0.25 ml/l; Buprofezin 25 SC @ 1.5 ml/l
+  Note: Never spray pyrethroids (resurgence trigger).
+
+PEST: Termites (Odontotermes spp.)
+-----------------------------------------------------------------
+Crops affected: Sugarcane, Wheat, Groundnut, Cotton
+Symptoms: Hollow stems; wilting plants; underground tunnels
+IPM:
+  Cultural: Remove tree stumps; avoid raw FYM; flood irrigation kills termites
+  Chemical: Chlorpyrifos 20 EC soil drench @ 2.5 L/ha; Fipronil 0.3G @ 33 kg/ha
+
+PEST: Stem Borer (Chilo partellus, Sesamia inferens)
+-----------------------------------------------------------------
+Crops affected: Maize, Sorghum, Rice, Sugarcane
+Symptoms: Dead heart in vegetative stage; white ear in reproductive stage
+IPM:
+  Mechanical: Light traps; egg mass collection
+  Biological: Trichogramma chilonis egg parasitoid @ 1 lakh/ha × 3 releases
+  Chemical: Cartap HC 4G @ 18 kg/ha; Chlorantraniliprole 18.5 SC @ 0.3 ml/l
+
+═══════════════════════════════════════════════════════════════════════
+SECTION 3: MAJOR CROP DISEASES
+═══════════════════════════════════════════════════════════════════════
+
+DISEASE: Blast (Pyricularia oryzae) – RICE
+-----------------------------------------------------------------
+Symptoms: Diamond-shaped lesions with grey centres on leaves; neck rot
+Conditions: Cool (<25°C), humid nights; continuous rice cultivation
+Management:
+  Resistant varieties: CR-Dhan 801, Saket-4
+  Seed treatment: Thiram 75 WS @ 4 g/kg
+  Foliar: Tricyclazole 75 WP @ 0.6 g/l at boot-leaf stage; Isoprothiolane 40 EC @ 1.5 ml/l
+  Avoid: High N; dense nursery; stagnant water
+
+DISEASE: Late Blight (Phytophthora infestans) – POTATO/TOMATO
+-----------------------------------------------------------------
+Symptoms: Dark water-soaked lesions on leaves; white mould underside; tuber rot
+Conditions: Humid (>80% RH), 10–20°C temperatures; epidemic in hills
+Management:
+  Preventive: Mancozeb 75 WP @ 2 g/l every 7 days when weather is conducive
+  Curative: Metalaxyl + Mancozeb @ 2.5 g/l; Dimethomorph 50 WP @ 1 g/l
+  Cultural: Certified seed; avoid overhead irrigation; destroy infected haulm
+
+DISEASE: Powdery Mildew (Erysiphe/Sphaerotheca spp.)
+-----------------------------------------------------------------
+Crops: Cucurbits, Grapes, Wheat, Pea, Chilli
+Symptoms: White powdery growth on upper leaf surface; stunted growth
+Management:
+  Cultural: Improve air circulation; reduce humidity
+  Biological: Sulphur 80 WG dust @ 25 kg/ha
+  Chemical: Hexaconazole 5 SC @ 2 ml/l; Myclobutanil 10 WP @ 1 g/l
+
+DISEASE: Fusarium Wilt (Fusarium oxysporum) – MULTI-CROP
+-----------------------------------------------------------------
+Crops: Tomato, Cotton, Banana, Chickpea, Watermelon
+Symptoms: One-sided yellowing then wilting; brown vascular discolouration
+Management:
+  Cultural: Crop rotation (4-year minimum); avoid furrow irrigation
+  Biological: Trichoderma harzianum @ 4 kg/ha soil application
+  Chemical: Carbendazim 50 WP seed treatment 2 g/kg; soil drench @ 1 g/l
+
+DISEASE: Downy Mildew (various oomycetes)
+-----------------------------------------------------------------
+Crops: Cucumber, Onion, Grapes, Pearl Millet (Green Ear disease)
+Symptoms: Yellow angular patches on upper leaf; grey-purple sporulation below
+Management:
+  Metalaxyl + Mancozeb @ 2.5 g/l; Copper oxychloride @ 3 g/l
+  Crop rotation; destroy infected debris
+
+═══════════════════════════════════════════════════════════════════════
+SECTION 4: NEMATODE MANAGEMENT
+═══════════════════════════════════════════════════════════════════════
+
+Root-Knot Nematode (Meloidogyne incognita):
+- Crops: Tomato, Brinjal, Okra, Groundnut, Banana
+- Symptoms: Galls/knots on roots; stunted yellowing plants
+- Management:
+    Cultural: Marigold (Tagetes erecta) intercrop or rotation – suppressive
+    Biological: Paecilomyces lilacinus / Purpureocillium lilacinum @ 4 kg/ha
+    Chemical: Carbofuran 3G @ 33 kg/ha; Ethoprophos 10G @ 15 kg/ha
+
+═══════════════════════════════════════════════════════════════════════
+SECTION 5: PESTICIDE SAFETY GUIDELINES
+═══════════════════════════════════════════════════════════════════════
+
+⚠️  SAFETY DISCLAIMER: Always follow label directions. Wear PPE (gloves, mask, goggles). 
+    Observe pre-harvest intervals (PHI). Avoid spraying near water bodies. 
+    Store chemicals in original containers away from children and food.
+    Dispose empty containers safely. Report poisoning to nearest PHC immediately.
+
+Banned Pesticides in India (as of 2023, selected list):
+  Monocrotophos, Endosulfan, Chlordane, Aldrin, DDT, Methyl Parathion, 
+  Carbofuran (proposed ban under review), Chlorpyrifos (proposed restrictions).
+  
+  Always check CIBRC (Central Insecticides Board & Registration Committee) list before use.
+
+Pre-Harvest Intervals (PHI – days before harvest):
+  Imidacloprid: 7 days | Chlorpyrifos: 15 days | Mancozeb: 7 days
+  Tricyclazole: 42 days (rice) | Spinosad: 3 days | Emamectin: 5 days
