@@ -49,8 +49,44 @@ function escapeHtml(s) {
 }
 
 function showLoading(id, msg = "Loading…") {
-  $(id).innerHTML = `<div class="loading-spinner">
-    <div class="spinner-grow spinner-grow-sm text-success"></div><span>${msg}</span></div>`;
+  const placeholder = `<div class="loading-skeleton" aria-label="Loading content">
+    <div class="skeleton-block tall"></div>
+    <div class="skeleton-block short"></div>
+    <div class="skeleton-block medium"></div>
+    <div class="skeleton-block large"></div>
+  </div>`;
+  const target = $(id);
+  if (target) target.innerHTML = placeholder;
+}
+
+function showToast(title, message, type = "info") {
+  let container = document.querySelector('.toast-container');
+  if (!container) {
+    container = document.createElement('div');
+    container.className = 'toast-container';
+    document.body.appendChild(container);
+  }
+
+  const toast = document.createElement('div');
+  toast.className = `toast-notification ${type}`;
+  toast.innerHTML = `<div class="toast-title">${escapeHtml(title)}</div><div class="toast-message">${escapeHtml(message)}</div>`;
+  container.appendChild(toast);
+
+  requestAnimationFrame(() => toast.classList.add('show'));
+
+  window.setTimeout(() => {
+    toast.classList.remove('show');
+    toast.classList.add('hide');
+    window.setTimeout(() => toast.remove(), 220);
+  }, 3000);
+}
+
+function markInvalid(el) {
+  if (!el) return;
+  el.classList.remove('is-invalid');
+  void el.offsetWidth;
+  el.classList.add('is-invalid');
+  window.setTimeout(() => el.classList.remove('is-invalid'), 600);
 }
 
 function showError(id, msg) {
@@ -76,6 +112,18 @@ let _tabSwitching = false;
 window.switchTab = function(tabId) {
   if (state.activeTab === tabId && !_tabSwitching) return; // no-op on same tab
   state.activeTab = tabId;
+
+  document.querySelectorAll('.quick-nav-card').forEach(card => {
+    const isActive = (card.dataset.tab === tabId || card.getAttribute('href') === `#${tabId}`);
+    card.classList.toggle('active', isActive);
+    card.setAttribute('aria-pressed', isActive ? 'true' : 'false');
+    if (isActive) {
+      card.animate([
+        { transform: 'translateY(-1px) scale(1.02)', opacity: 0.96 },
+        { transform: 'translateY(0) scale(1)', opacity: 1 }
+      ], { duration: 220, easing: 'cubic-bezier(0.22, 1, 0.36, 1)' });
+    }
+  });
 
   const panels = document.querySelectorAll(".tab-content-panel");
   const targetPanel = $(tabId);
@@ -108,14 +156,6 @@ window.switchTab = function(tabId) {
     const isActive = (href === `#${tabId}`);
     link.classList.toggle("active", isActive);
     link.setAttribute("aria-current", isActive ? "page" : "");
-  });
-
-  // ── Sync Quick Nav cards ────────────────────────────────────────────────────
-  document.querySelectorAll(".quick-nav-card").forEach(card => {
-    const attr = card.dataset.tab || card.getAttribute("href");
-    const match = (attr === `#${tabId}` || attr === tabId);
-    card.classList.toggle("active", match);
-    card.setAttribute("aria-pressed", match ? "true" : "false");
   });
 
   // ── Sync Mobile bottom nav ──────────────────────────────────────────────────
@@ -286,7 +326,7 @@ function initSimpleMode() {
 // ── PDF Client-Side Generation ──────────────────────────────────────────────
 function downloadAdvisoryPDF(markdownContent, title) {
   if (typeof html2pdf === "undefined") {
-    alert("PDF library is still loading. Please try again in a moment.");
+    showToast("PDF library", "The PDF library is still loading. Please try again in a moment.", "warning");
     return;
   }
 
@@ -386,7 +426,7 @@ function stripMarkdown(text) {
 const TTS_SUPPORTED = "speechSynthesis" in window;
 
 function speakText(text, btnEl) {
-  if (!TTS_SUPPORTED) { alert("Text-to-speech is not supported in your browser."); return; }
+  if (!TTS_SUPPORTED) { showToast("Speech", "Text-to-speech is not supported in your browser.", "warning"); return; }
 
   // Stop any current speech
   if (window.speechSynthesis.speaking) {
@@ -652,6 +692,8 @@ async function loadWeather(stateVal, monthVal) {
   state.currentWeatherMonth = monthVal;
 
   const cacheKey = `${stateVal}:${monthVal}`;
+  card.classList.add('reveal-on-scroll');
+
   if (state.weatherCache[cacheKey]) {
     const cached = state.weatherCache[cacheKey];
     renderWeatherCard(cached);
@@ -659,7 +701,12 @@ async function loadWeather(stateVal, monthVal) {
     return;
   }
 
-  card.innerHTML = `<div class="weather-loading"><div class="spinner-grow spinner-grow-sm text-white me-2"></div>Loading…</div>`;
+  card.innerHTML = `<div class="loading-skeleton" aria-label="Loading weather data">
+    <div class="skeleton-block tall"></div>
+    <div class="skeleton-block short"></div>
+    <div class="skeleton-block medium"></div>
+    <div class="skeleton-block large"></div>
+  </div>`;
   $("weatherFarmingAdvice")?.classList.add("d-none");
 
   try {
@@ -764,7 +811,12 @@ function renderMandiResults(data) {
 function initMandi() {
   $("mandiSearchBtn")?.addEventListener("click", async () => {
     const commodity = $("mandiCommodity")?.value?.trim();
-    if (!commodity) { alert("Please select a commodity."); return; }
+    const commodityInput = $("mandiCommodity");
+    if (!commodity) {
+      showToast("Missing selection", "Please select a commodity before looking up mandi prices.", "warning");
+      markInvalid(commodityInput);
+      return;
+    }
     const stateVal = $("mandiState")?.value?.trim();
 
     showLoading("mandiResults", "Looking up prices…");
@@ -831,7 +883,14 @@ function initPestHelp() {
   $("pestDiagnoseBtn")?.addEventListener("click", async () => {
     const crop     = $("pestCrop")?.value?.trim();
     const symptoms = $("pestSymptoms")?.value?.trim();
-    if (!crop && !symptoms) { alert("Please enter at least the crop name or symptoms."); return; }
+    const cropInput = $("pestCrop");
+    const symptomsInput = $("pestSymptoms");
+    if (!crop && !symptoms) {
+      showToast("Missing details", "Please enter at least the crop name or symptoms.", "warning");
+      if (!crop) markInvalid(cropInput);
+      if (!symptoms) markInvalid(symptomsInput);
+      return;
+    }
 
     showLoading("pestResults", "Diagnosing pest/disease…");
     try {
@@ -937,7 +996,7 @@ function renderCropCalendar(seasonFilter = "all") {
 
 function initCropCalendarFilters() {
   document.querySelectorAll(".calendar-filter-btn").forEach(btn => {
-    btn.addEventListener("click", (e) => {
+    btn.addEventListener("click", () => {
       document.querySelectorAll(".calendar-filter-btn").forEach(b => b.classList.remove("active"));
       btn.classList.add("active");
       const season = btn.dataset.season;
@@ -1023,13 +1082,54 @@ function renderGovernmentSchemes(tagFilter = "all") {
 
 function initSchemeFilters() {
   document.querySelectorAll(".scheme-tag").forEach(tag => {
-    tag.addEventListener("click", (e) => {
+    tag.addEventListener("click", () => {
       document.querySelectorAll(".scheme-tag").forEach(t => t.classList.remove("active"));
       tag.classList.add("active");
       const tagVal = tag.dataset.tag;
       renderGovernmentSchemes(tagVal);
     });
   });
+}
+
+function initRevealAnimations() {
+  const revealItems = document.querySelectorAll('.reveal-on-scroll, .hero-reveal');
+  if (!('IntersectionObserver' in window) || revealItems.length === 0) {
+    revealItems.forEach(item => item.classList.add('is-visible'));
+    return;
+  }
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('is-visible');
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.16, rootMargin: '0px 0px -20px 0px' });
+
+  revealItems.forEach((item, index) => {
+    item.style.transitionDelay = `${index * 70}ms`;
+    observer.observe(item);
+  });
+}
+
+function initHeroStagger() {
+  const heroElements = document.querySelectorAll('.hero-badge, .hero-title, .hero-subtitle, .hero-greeting, .hero-quick-actions, .hero-stats-row');
+  heroElements.forEach((element, index) => {
+    element.classList.add('hero-reveal');
+    element.style.transitionDelay = `${index * 80}ms`;
+  });
+  window.setTimeout(() => {
+    heroElements.forEach(element => element.classList.add('is-visible'));
+  }, 40);
+}
+
+function initSectionRevealEnhancements() {
+  document.querySelectorAll('.panel-card, .scheme-card, .crop-calendar-card, .recent-questions-container, .result-panel').forEach((element, index) => {
+    element.classList.add('reveal-on-scroll');
+    element.style.transitionDelay = `${Math.min(index * 60, 240)}ms`;
+  });
+  initRevealAnimations();
 }
 
 // ── Boot ─────────────────────────────────────────────────────────────────────
@@ -1054,6 +1154,10 @@ document.addEventListener("DOMContentLoaded", () => {
   
   loadGovernmentSchemes();
   initSchemeFilters();
+
+  initRevealAnimations();
+  initHeroStagger();
+  initSectionRevealEnhancements();
 
   // Make tabs sticky after scrolling past hero section
   const heroSection = document.querySelector('.hero-section');
